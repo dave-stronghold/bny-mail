@@ -18,7 +18,9 @@
   },
   "dependencies": {
     "@electron-toolkit/preload": "^2.0.0",
-    "@electron-toolkit/utils": "^2.0.0"
+    "@electron-toolkit/utils": "^2.0.0",
+    "electron-icon-maker": "^0.0.5",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config": "^1.0.1",
@@ -32,6 +34,7 @@
     "prettier": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sass": "^1.69.5",
     "vite": "^4.4.9"
   }
 }
