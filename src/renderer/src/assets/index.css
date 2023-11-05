@@ -1,7 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   display: flex;
   flex-direction: column;
-  font-family:
+  /* font-family:
     Roboto,
     -apple-system,
     BlinkMacSystemFont,
@@ -11,9 +15,9 @@ body {
     'Ubuntu',
     'Cantarell',
     'Open Sans',
-    sans-serif;
-  color: #86a5b1;
-  background-color: #4c53d8;
+    sans-serif; */
+  /* color: #86a5b1; */
+  /* background-color: #4c53d8; */
   overflow: hidden;
 }
 .content-wrapper{
@@ -25,7 +29,7 @@ body {
   margin: 0;
 }
 
-ul {
+/* ul {
   list-style: none;
 }
 
@@ -55,7 +59,7 @@ a {
 
 a:hover {
   border-bottom: 1px solid;
-}
+} */
 
 .container {
   flex: 1;
@@ -67,7 +71,7 @@ a:hover {
   
 }
 
-.versions {
+/* .versions {
   margin: 0 auto;
   float: none;
   clear: both;
@@ -207,4 +211,4 @@ a:hover {
   .features .feature-item {
     width: 100%;
   }
-}
+} */
